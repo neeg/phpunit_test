@@ -12,6 +12,11 @@ class Calculator
 	{
 		return $a - $b;
 	}
+	
+	public function multiplication($a, $b)
+	{
+		return $a * $b;
+	}
 }
 
 ?>
