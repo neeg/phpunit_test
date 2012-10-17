@@ -1,6 +1,6 @@
 <?php
 
-require_once 'calculator.php';
+require_once 'src/calculator.php';
 use App\Calculator;
 
 class CalculatorTest extends PHPUnit_Framework_TestCase
