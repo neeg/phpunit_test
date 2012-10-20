@@ -18,14 +18,12 @@ require_once 'vendor/phpunit/phpunit-selenium/PHPUnit/Extensions/Selenium2TestCa
 
 class CalculatorTestSelenium extends PHPUnit_Extensions_Selenium2TestCase
 {
-	protected function setUp()
-    {
+	protected function setUp() {
         $this->setBrowser('firefox');
         $this->setBrowserUrl('http://www.google.com/');
     }
  
-    public function testTitle()
-    {
+    public function testTitle() {
         $this->url('http://www.google.com/');
         $this->assertEquals('Google', $this->title());
     }
